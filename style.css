@@ -153,12 +153,12 @@ img2 {
 
 
 
-#hidden {
+.hidden {
   display: none;
   /*height: 100px;
   background: red;*/
 }
-:checked ~ #hidden{
+:checked ~ .hidden{
   display: block;
   text-align: justify;
   text-justify: inter-word;
@@ -166,9 +166,12 @@ img2 {
 
 .label{
 }
+.link{
+  color:#000;
+  font-size:large;
+}
 
 label:hover {
-  font-size: small;
   color:#aaa;
   cursor:pointer;
 }

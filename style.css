@@ -176,3 +176,21 @@ label:hover {
   color:#aaa;
   cursor:pointer;
 }
+
+/* for the time table */
+table, th, td {
+  border: 1px solid black;
+  /* border-spacing: 5px; */
+}
+
+tr:nth-child(5) {background-color: DarkGrey;}
+tr:nth-child(9) {background-color: DarkGrey;}
+
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}

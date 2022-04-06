@@ -9,7 +9,8 @@ html, body {
 html {
   /* background: url('https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG') fixed;*/
   background: url('map.jpg') fixed;
-  background-size: 100%;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 div {

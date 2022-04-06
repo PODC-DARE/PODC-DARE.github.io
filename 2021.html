@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <title>DARE 2021</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="fullscreen nopadding">
+    <div id="header">
+      <!-- <img src="dare2.png" width="100px" />  -->
+        DARE 2021: 1st Workshop on Distributed Algorithms on Realistic Network Models<br><br>
+        <div><input type="checkbox" id="edditions" style="display:none;">
+          <div class="link">
+            All edditions
+            <label for="edditions">&#8600;</label>
+          </div>
+          <div class="hidden">
+            <a href="index.html">2022</a> (Salerno, Italy)<br>
+            <a href="2021.html">2021</a> (Online)<br>
+          </div>
+        </div>
+    </div>
+    <div class="header">
+      <h1>July 30</h1>
+    </div>
+  </div>
+
+
+  <div class="white text">
+    <a id="test"></a>
+    <h1>Goals</h1>
+    <p>The main goal of the workshop is to create a platform for the exchange of tools, ideas, and questions between  researchers  working on different aspects of real networks.
+    Especially the concepts from the quite young area of sparse graphs and from network science are not widely known in the distributed community. <br>
+    We hope that the workshop will foster new cross-field collaborations that will lead to strong new results. In particular we hope that the workshop will encourage more practical works such as implementation, evaluation, and the usage of structural graph theory in larger systems. On the other hand we expect that researchers working on practical problems (both on physical and social networks) can show possible new directions for theoretical researches that are relevant for practical applications</p>
+  </div>
+
+
+
+  <div class="semitrans">
+    <h1>Speakers</h1>
+    <h2>Tutorial</h2>
+
+
+        <div><img class="floatleft" src="Speakers/thomas-2.png" style="width: 5vw;"/>
+          <div>
+            <a href="https://scale.iti.kit.edu/people/thomasblaesius">Thomas Bläsius</a><br>
+            Theoretical Algorithm Analysis meets Practical Data
+            <div><input type="checkbox" id="thomas-info" style="display:none;">
+              <div class="link">
+                <label for="thomas-info">Abstract &#8600;</label>
+              </div>
+              <div class="hidden">
+                A theoretical running time analysis is a great tool for predicting the
+                performance of algorithms, saving programmers from implementing and
+                evaluating alternatives that are "obviously" worse. Though this works
+                very well in many cases, there are situations where the predictions do
+                not match practical observations. This often comes from the fact that
+                practical problem instances have certain properties that make them
+                well-behaved. In this talk, I present probabilistic network models that
+                formalize these properties and discuss theoretical results based on
+                these formalizations. In the course of this, I will discuss advantages
+                and limitations of this model-based approach.
+              </div>
+            </div>
+            <div><input type="checkbox" id="thomas-info2" style="display:none;">
+              <div class="link">
+                <label for="thomas-info2">Bio &#8600;</label>
+              </div>
+              <div class="hidden">
+                Thomas Bläsius studied computer science at the Karlsruhe Institute of Technology (KIT), where he continued to do his PhD in the field of Graph Drawing. Afterwards he spent five years as postdoc at the Hasso Plattner Institute (HPI) in Potsdam. Since then, his research focuses on the analysis of algorithms on realistic input models, with the aim to bridge the theory-practice gap between theoretical lower bounds and efficient practical algorithms. Since 2020, Thomas is junior professor and head of the Scalable Algorithms group at the KIT in Karlsruhe.
+              </div>
+            </div>
+          </div>
+        </div><br>
+
+
+
+    <div><img class="floatleft" src="Speakers/stefan-schmid-3.png" style="width: 5vw;"/>
+      <div>
+        <a href="https://www.univie.ac.at/ct/stefan/">Stefan Schmid</a><br>
+        Disconnected cooperation in resilient networks <br> and the algorithmic challenges of local fast re-routing
+        <div><input type="checkbox" id="stefan-info" style="display:none;">
+          <div class="link">
+            <label for="stefan-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            The dependability of distributed systems often critically depends on the underlying communication network, realized by a set of routers. To provide high availability, modern routers support local fast rerouting of flows: routers can be preconfigured with conditional failover rules which define to which port a packet arriving on this incoming port should be forwarded deterministically depending on the status of the incident links only. As routers need to react quickly, they do not have time to learn about remote failures.<br>
+            My talk revolves around the fundamental question whether and how local fast rerouting mechanisms can be configured such that packets always reach their destination even in the presence of multiple failures, as long as the underlying network is still connected. I will show that this algorithmic problem is related to the field of disconnected cooperation, and offers a number of challenging research questions -- and sometimes surprising results.
+            In particular, I will give an overview of state-of-the-art algorithmic techniques for different realistic graph classes (from dense datacenter topologies to sparse wide-area networks) and discuss lower bounds and impossibility results. While the main focus of the talk will be on deterministic algorithms, we will also take a glimpse at the power of randomization.
+          </div>
+        </div>
+        <div><input type="checkbox" id="stefan-info2" style="display:none;">
+          <div class="link">
+            <label for="stefan-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Stefan Schmid is a Professor at the Technical University of Berlin, working part-time for the Fraunhofer Institute for Secure Information Technology (SIT). MSc in Computer Science at ETH Zurich in Switzerland (minor: micro/macro economics, internship: CERN) and PhD in the Distributed Computing Group led by Prof. Roger Wattenhofer, also at ETH Zurich. Then postdoc at the Chair for Efficient Algorithms at the Technical University of Munich and at the Chair for Theory of Distributed Systems at the University of Paderborn, in Germany. From 2009 to 2015, he was a senior research scientist at the Telekom Innovation Laboratories (T-Labs) in Berlin, in 2013/14, an INP Visiting Professor at CNRS (LAAS), Toulouse, and in 2014, a Visiting Professor at Université catholique de Louvain (UCL). From 2015 to 2018, Associate Professor at Aalborg University, Denmark, and from 2018 to 2021 Professor at the University of Vienna, Austria. Since 2021, he serves as the Editor-in-Chief of the Bulletin of the European Association of Theoretical Computer Science (EATCS) and since 2019 as Editor of IEEE/ACM Transactions on Networking (ToN). He received the IEEE Communications Society ITC Early Career Award 2016 and an ERC Consolidator Grant 2019, and co-founded the startup company Stacktile supported by Germany's EXIST program.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div><img class="floatleft" src="Speakers/pom-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="http://madezhi.free.fr/">Patrice Ossona de Mendez</a><br>
+        Local properties of sparse graphs
+        <div><input type="checkbox" id="pom-info" style="display:none;">
+          <div class="link">
+            <label for="pom-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            Classes of sparse graphs ---  such as classes with bounded expansion and nowhere dense classes --- enjoy strong structural and algorithmic properties. For example, FO-model checking is FPT on such classes. In this talk, we survey some locality properties of these classes, which might well open the way to new distributed algorithms in the LOCAL model.
+          </div>
+        </div>
+        <div><input type="checkbox" id="pom-info2" style="display:none;">
+          <div class="link">
+            <label for="pom-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Patrice Ossona de Mendez is researcher at the Centre d'Analyse et de Mathématique Sociales (CNRS/EHESS) at Paris, working part-time for the Computer Science Institute of Charles University (Prague, Czech Republic) and the Combinatorics center of Zhejiang Normal University (Jinhua, China). He received a PhD from EHESS in 1994, under the direction of Pierre Rosenstiehl and entered the CNRS in 1995. He received his habilitation from the Université Bordeaux I in 2009. Since 2009, he serves as the Editor-in-Chief of the European Journal of Combinatorics. His research interests are in Combinatorics, with focus on topological graph theory, structural properties of sparse combinatorial objects, limits of structures, and model theoretical aspects of structural graph theory.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+
+    <h2>Short talk</h2>
+
+    <div><img class="floatleft" src="Speakers/michael-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="http://www.cs.jhu.edu/~mdinitz/">Michael Dinitz</a><br>
+        Datacenter Topologies: Expanders and Beyond
+        <div><input type="checkbox" id="michael-info" style="display:none;">
+          <div class="link">
+            <label for="michael-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            Data centers are one of the most important settings in modern computer networking and distributed computing.  Due to their importance they are very carefully architected, including the physical topology.  While some distributed algorithms can be used "off the shelf" in data centers, the importance of performance and reliability, together with the carefully designed topologies, mean that it is often necessary to tailor our algorithms to the specifics of data center topologies.  In this talk I will give an overview of data center topologies, with a focus on proposed next-generation "expander data centers" based on expander graphs.  This will hopefully help the distributed algorithms community more easily contribute to the field of data center networking.
+          </div>
+        </div>
+        <div><input type="checkbox" id="michael-info2" style="display:none;">
+          <div class="link">
+            <label for="michael-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Michael is an Associate Professor in the Department of Computer Science at Johns Hopkins University, with a secondary appointment in the Department of Applied Mathematics and Statistics.  He received his PhD from Carnegie Mellon University, and was a postdoctoral fellow at the Weizmann Institute of Science before joining JHU.  His research is broadly in algorithms, with a focus on approximation algorithms, graph algorithms, distributed algorithms, and the theory of computer networking.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div><img class="floatleft" src="Speakers/janne-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="https://pub.ist.ac.at/~jkorhone/">Janne Korhonen</a><br>
+        Structural parameters and distributed graph algorithms
+        <div><input type="checkbox" id="janne-info" style="display:none;">
+          <div class="link">
+            <label for="janne-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            Structural graph parameters, such as degeneracy, treewidth and vertex cover number, offer various ways to measure the sparsity or simplicity of a graph. They are most widely studied in parameterised complexity, where the one asks which problem and parameter combinations admit fixed-parameter tractability – intuitively, which parameters behave in a way where a small value of the parameter makes a problem easy independent of the number of nodes in the graph.<br>
+            In this talk, we review the hierarchy of structural parameters used in parameterised complexity, and discuss how these notions can be applied to distributed graph algorithms in LOCAL, CONGEST and CLIQUE models. While structural parameters have been implicitly used in distributed computing, we argue that wider exploration of structural parameters can offer new ways to think about real-world instances, and there is potential for "technology transfer" from parameterised complexity to distributed algorithmics.
+          </div>
+        </div>
+        <div><input type="checkbox" id="janne-info2" style="display:none;">
+          <div class="link">
+            <label for="janne-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Janne H. Korhonen is a postdoctoral researcher at IST Austria. He graduated from the University of Helsinki in 2014, and has been since jumping between various topics in distributed computing, machine learning, exact exponential algorithms and bioinformatics. His main current research interest is the theoretical limits of communication in distributed systems, in particular in CONGEST, congested clique and related models.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div><img class="floatleft" src="Speakers/andrzej-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="https://math.asu.edu/node/893">Andrzej Czygrinow</a><br>
+        Matchings and their generalizations in certain classes of sparse graphs
+        <div><input type="checkbox" id="andrzej-info" style="display:none;">
+          <div class="link">
+            <label for="andrzej-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            In this talk we will discuss one of the main techniques used to design distributed approximation algorithms for minor-closed families of graphs. We will focus on the maximum matching problem and its generalizations and use it to illustrate the main paradigm that encapsulates the principles behind this approach.
+          </div>
+        </div>
+        <div><input type="checkbox" id="andrzej-info2" style="display:none;">
+          <div class="link">
+            <label for="andrzej-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Andrzej Czygrinow works in the area of extremal graph theory and the theory of distributed algorithms. He has mainly worked on the so-called regularity method and its applications in graphs and hypergraphs. In addition, he is interested in using graph-theoretic tools to study distributed algorithms.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <div><img class="floatleft" src="Speakers/soheil-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="http://behnezhad.com/">Soheil Behnezhad</a><br>
+        Locality and the Stochastic Matching Problem
+        <div><input type="checkbox" id="soheil-info" style="display:none;">
+          <div class="link">
+            <label for="soheil-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            In the stochastic matching problem, we are given an arbitrary graph G, and the goal is to find a matching of an unknown random subgraph G' of G by querying only a small number of edges in G. In this talk, we show how with the machinery of distributed local algorithms, one can analyze a (non-distributed and global) Monte Carlo algorithm for the stochastic matching problem and prove that it obtains an almost maximum size matching with very few queries.<br>
+            Based on joint works with MohammadTaghi Hajiaghayi and Mahsa Derakhshan (STOC'20, FOCS'20).
+          </div>
+        </div>
+        <div><input type="checkbox" id="soheil-info2" style="display:none;">
+          <div class="link">
+            <label for="soheil-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Soheil Behnezhad is currently a PhD candidate at the University of Maryland. He will join Northeastern University as an Assistant Professor in Fall 2022 and prior to that will spend a year at Stanford as a Motwani Postdoctoral Fellow. Soheil is broadly interested in theoretical computer science with a specific focus on the theoretical foundations of big data algorithms. His works revolve around massively parallel computation (à la MapReduce), streaming algorithms, graph sparsification, and dynamic algorithms, among others. During his PhD, Soheil has spent a year at the Simons Institute of UC Berkeley, a summer at TTI Chicago, and a summer at Google Research.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div><img class="floatleft" src="Speakers/pedro-2.png" style="width: 5vw;"/>
+      <div>
+        <a href="https://ingenieria.uai.cl/profesor/pedro-montealegre/">Pedro Montealegre</a><br>
+        Compact local certification of graph classes
+        <div><input type="checkbox" id="pedro-info" style="display:none;">
+          <div class="link">
+            <label for="pedro-info">Abstract &#8600;</label>
+          </div>
+          <div class="hidden">
+            There are more and more distributed algorithms specially designed to work on specific graph classes, such as interval graphs or planar graphs. Before running such algorithms, one would like to be sure that the graph does belong to the class. In this talk, we tackle the problem of locally certifying graph classes. Specifically, we explain how we can design compact certification (i.e. proof-labeling schemes with logarithmic certificates) for planar, bounded genus, chordal, interval, circular-arc, and permutation graphs.
+          </div>
+        </div>
+        <div><input type="checkbox" id="pedro-info2" style="display:none;">
+          <div class="link">
+            <label for="pedro-info2">Bio &#8600;</label>
+          </div>
+          <div class="hidden">
+            Pedro Montealegre is an Assistant Professor in the Engineering and Sciences Faculty at Universidad Adolfo Ibáñez in Santiago, Chile. He has an engineering degree with a major in mathematics from Universidad de Chile, later received his Ph.D. in Computer Science from the University of Orléans, and was a postdoctoral fellow at Universidad Adolfo Ibáñez. His research is mainly focused on distributed graph algorithms and the complexity of automata networks.
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+
+  </div>
+
+  <div class="white text">
+    <h1>Program</h1>
+    <h2>Friday, July 30, 13:00-21:00 CEST.</h2>
+    The speakers include time for questions and a short break.<br><br>
+    <center>
+      <div><table style="width:800px">
+        <tr>
+          <th>Start</th>
+          <th>Length</th>
+          <th>Speaker</th>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>1:30</td>
+          <td>Thomas Bläsius</td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td>1:30</td>
+          <td>Stefan Schmid</td>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td>0:30</td>
+          <td>Michael Dinitz</td>
+        </tr>
+        <tr>
+          <td>16:30</td>
+          <td>0:30</td>
+          <td>Break</td>
+        </tr>
+        <tr>
+          <td>17:00</td>
+          <td>1:30</td>
+          <td>Patrice Ossona de Mendez</td>
+        </tr>
+        <tr>
+          <td>18:30</td>
+          <td>0:30</td>
+          <td>Janne Korhonen</td>
+        </tr>
+        <tr>
+          <td>19:00</td>
+          <td>0:30</td>
+          <td>Andrzej Czygrinow</td>
+        </tr>
+        <tr>
+          <td>19:30</td>
+          <td>0:30</td>
+          <td>Break</td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td>0:30</td>
+          <td>Soheil Behnezhad</td>
+        </tr>
+        <tr>
+          <td>20:30</td>
+          <td>0:30</td>
+          <td>Pedro Montealegre</td>
+        </tr>
+      </table></div>
+    </center>
+    <br>
+  </div>
+
+  <div class="semitrans">
+    <h1>Other information</h1>
+
+    <h2>Organizing Commitee</h2>
+    <div class="grid-container">
+      <div grid-item>   <img class="floatleft" src="Speakers/us/token_1.png" style="width: 5vw;"/>
+        <p><a href="https://sites.google.com/view/saeedamiri/home">Saeed Amiri</a></p>
+      </div>
+      <div grid-item><img class="floatleft" src="Speakers/us/token_3.png" style="width: 5vw;"/>
+        <p><a href="https://perso.liris.cnrs.fr/lfeuilloley/">Laurent Feuilloley</a></p>
+      </div>
+      <div grid-item><img class="floatleft" src="Speakers/us/token_2.png" style="width: 5vw;"/>
+        <p><a href="https://www.uni-bremen.de/en/theorie/team/profiles/prof-dr-sebastian-siebertz">Sebastian Siebertz</a></p>
+      </div>
+      <div grid-item><img class="floatleft" src="Speakers/us/token_4.png" style="width: 5vw;"/>
+        <p><a href="https://alexandre-vigny.github.io/">Alexandre Vigny</a></p>
+      </div>
+    </div>
+
+    <h2>Any questions?</h2>
+    <p>Send us an email!</p>
+  </div>
+
+  <div class="dark thank nopadding">
+    <p>Thank to <a href="https://codepen.io/flyingfisch">flyingfisch</a> and their <a href="https://codepen.io/flyingfisch/pen/qDfaG">pen</a>.
+  </div>
+</body>
+</html>

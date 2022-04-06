@@ -11,6 +11,7 @@ html {
   background: url('map.jpg') fixed;
   background-size:cover;
   background-repeat:no-repeat;
+  background-position: center top;
 }
 
 div {
@@ -55,10 +56,11 @@ img2 {
 }
 
 #header {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .75);
   padding: 1%;
   overflow: hidden;
 }
+
 #header img {
   float: left;
   box-shadow: none;

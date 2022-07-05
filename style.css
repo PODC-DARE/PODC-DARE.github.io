@@ -186,14 +186,10 @@ table, th, td {
   /* border-spacing: 5px; */
 }
 
-/* TO FIX 2021 VS 2022 */
 /* tr:nth-child(5) {background-color: DarkGrey;}
 tr:nth-child(9) {background-color: DarkGrey;} */
-
-
-tr:nth-child(4) {background-color: DarkGrey;}
-tr:nth-child(7) {background-color: DarkGrey;}
-
+/* tr:nth-child(4) {background-color: DarkGrey;}
+tr:nth-child(7) {background-color: DarkGrey;} */
 
 th, td {
   padding: 10px;
@@ -202,3 +198,11 @@ th, td {
 th {
   text-align: center;
 }
+
+/* TO FIX 2021 VS 2022 */
+#prog-2021 tr:nth-child(5) {background-color: DarkGrey;}
+#prog-2021 tr:nth-child(9) {background-color: DarkGrey;}
+
+/* Programme 2022 */
+#prog-2022 tr:nth-child(4) {background-color: DarkGrey;}
+#prog-2022 tr:nth-child(7) {background-color: DarkGrey;}
